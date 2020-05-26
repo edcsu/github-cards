@@ -14,3 +14,21 @@
 .avatar {
   width: 75px;
 }
+
+.card-list {
+  width: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inputForm {
+  padding: 2rem;
+  border: 1px solid gray;
+  width: 18rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.add-button {
+  margin-left: 0.5rem;
+}

@@ -1,11 +1,10 @@
 import React from 'react';
 import Card from './CardComponent'
-import testData from '../data/seed'
 
-function CardList() {
+function CardList({profiles}) {
     return (
         <div className="card-list">
-            {testData.map( profile => <Card {...profile}/>)  } 
+            {profiles.map( profile => <Card {...profile}/>)  } 
         </div>
     );
 }

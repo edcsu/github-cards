@@ -7,7 +7,7 @@ class Card extends React.Component {
         <div className="github-profile">
             <img className="avatar" src={profile.avatar_url} alt="avatar" />
             <div className="name">{profile.name}</div>
-            <div className="name">{profile.company}</div>
+            <div className="company">{profile.company}</div>
         </div>
         );
     }
