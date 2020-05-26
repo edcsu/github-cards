@@ -5,12 +5,16 @@ import FormComponent from './Components/FormComponent';
 import testData from './data/seed'
 
 function App() {
-  const [state] = useState(testData);
+  const [state, setState] = useState(testData);
   const addNewProfile = (profileData) => {
-    this.setState(prevState =>({
-      profiles: [...prevState.profiles, profileData]
-    }))
+    const newProfiles = [...state, profileData] 
+    setState(newProfiles)
   }
+
+  // const addToDo = title => {
+  //   const newTodos = [...todos, { id: todos.length+1, title, completed: false}];
+  //   setTodos(newTodos);
+  // }
 
   return (
     <div className="App">

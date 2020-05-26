@@ -9,9 +9,9 @@ class FormComponent extends React.Component {
     handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const res = await axios.get(`${baseUrl}${this.state.userName}`);
-            this.props.onSubmit(res.data);
-            this.setState({ userName: ''})    
+            const res = await axios.get(`${baseUrl}${this.state.userName}`)
+            this.props.onSubmit(res.data)
+            this.setState( { userName: ""} )     
         } catch (error) {
             console.log(error);    
         }
