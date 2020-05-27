@@ -15,7 +15,7 @@
   border: 1px solid gray;
   border-radius: 5px;
   padding: 15px;
-  width: 12rem;
+  width: 16rem;
   background: #642B73;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #C6426E, #642B73);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #C6426E, #642B73); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
