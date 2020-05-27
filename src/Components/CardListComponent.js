@@ -1,10 +1,10 @@
 import React from 'react';
-import Card from './CardComponent'
+import ProfileCard from './CardComponent'
 
 function CardList({profiles}) {
     return (
         <div className="card-list">
-            {profiles.map( profile => <Card key={profile.name} {...profile}/>)  } 
+            {profiles.map( profile => <ProfileCard key={profile.name} {...profile}/>)  } 
         </div>
     );
 }

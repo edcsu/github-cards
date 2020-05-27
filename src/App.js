@@ -11,11 +11,6 @@ function App() {
     setState(newProfiles)
   }
 
-  // const addToDo = title => {
-  //   const newTodos = [...todos, { id: todos.length+1, title, completed: false}];
-  //   setTodos(newTodos);
-  // }
-
   return (
     <div className="App">
       <h1 className="page-header">
