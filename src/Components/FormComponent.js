@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import {Button} from 'react-toolbox/lib/button';
 
 const baseUrl = 'https://api.github.com/users/'
 
@@ -27,7 +28,7 @@ class FormComponent extends React.Component {
                     type = "text"
                     placeholder = "Github username"
                     required />
-                <button className="add-button"> Add card </button>
+                <Button label="Add card" className="add-button" raised />
             </form>
         );
     }

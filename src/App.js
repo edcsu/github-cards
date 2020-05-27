@@ -2,6 +2,7 @@ import React, { useState }  from 'react';
 import './App.css';
 import CardList from './Components/CardListComponent';
 import FormComponent from './Components/FormComponent';
+import HeaderComponent from './Components/HeaderComponent';
 import testData from './data/seed'
 
 function App() {
@@ -13,9 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="page-header">
-        Github page profiles
-      </h1>
+      <HeaderComponent />
       <FormComponent onSubmit={addNewProfile} />
       <CardList profiles={state} />
     </div>

@@ -1,5 +1,6 @@
 .page-header {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .github-profile {
@@ -9,14 +10,19 @@
   display: flex;
   border: 1px solid gray;
   border-radius: 5px;
-  padding: 5px;
-  width: 10rem;
+  padding: 15px;
+  width: 12rem;
 }
 
+.github-icon {
+  height: 1.5rem;
+  margin-top: 2rem;
+  margin-right: 0.2rem;
+}
 
 .info {
  display: inline-block;
- margin-left: 0.2rem;   
+ margin-left: 1rem;   
 }
 
 .card-list {
@@ -35,4 +41,9 @@
 
 .add-button {
   margin-left: 0.5rem;
+}
+
+.name {
+  font-weight: bolder;
+  font-size: larger;
 }
