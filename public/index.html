@@ -49,14 +49,14 @@
     <script>
       // Your web app's Firebase configuration
       var firebaseConfig = {
-        apiKey: "AIzaSyAptmd92Qz9CEoCPvKl-J7xhVRcwIccGmU",
-        authDomain: "githubprofilecards.firebaseapp.com",
-        databaseURL: "https://githubprofilecards.firebaseio.com",
-        projectId: "githubprofilecards",
-        storageBucket: "githubprofilecards.appspot.com",
-        messagingSenderId: "851777845057",
-        appId: "1:851777845057:web:e755e23c7fbdc72a0553c0",
-        measurementId: "G-YQ1ZF7MYXB"
+        apiKey: process.env.REACT_APP_FIREBASE_APIKEY,
+        authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+        databaseURL: process.env.REACT_APP_FIREBASE_DATABASE_URL,
+        projectId: process.env.REACT_APP_FIREBASE_PROJECTID,
+        storageBucket: process.env.REACT_APP_FIREBASE_STORAGEBUCKET,
+        messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+        appId: process.env.REACT_APP_FIREBASE_APP_ID,
+        measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
       };
       // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
